@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homeFragment"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/item_home_selected"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/cartFragment"
+        android:title="Cart"
+        android:enabled="true"
+        android:icon="@drawable/item_cart_selected"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/personFragment"
+        android:title="Person"
+        android:enabled="true"
+        android:icon="@drawable/item_person_selected"
+        app:showAsAction="always"
+        />
+</menu>
